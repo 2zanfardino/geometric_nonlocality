@@ -84,11 +84,6 @@ plt.legend()
 plt.show()
 
 
-# -------------------------------
-# 1️⃣ Funzione vectorizzata calcola_t (p11 fissato a 0)
-# -------------------------------
-
-
 
 n = 10
 p1_vec = np.linspace(0, 1, n)
@@ -134,7 +129,7 @@ cbar.ax.tick_params(labelsize=14)
 plt.xlabel(r'$e_{1}$', fontsize=16)
 plt.ylabel(r'$e_{2}$', fontsize=16)
 
-# Aumentare la dimensione dei numeri degli assi
 plt.tick_params(axis='both', which='major', labelsize=14)  # ad esempio 14
 
 plt.show()
+
